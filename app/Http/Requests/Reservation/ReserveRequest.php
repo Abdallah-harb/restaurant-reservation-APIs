@@ -27,6 +27,7 @@ class ReserveRequest extends FormRequest
             "table_id" => "required|exists:tables,id",
             "from_time" => "required|string",
             "to_time" => "required|string",
+            "guestNumber" => "required"
         ];
     }
 }
